@@ -4,5 +4,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('api.urls')),  # Rest Framework
-    path('blog/', include('blog.urls')),  # Blog app
+    path('', include('blog.urls')),  # Blog app
 ]
