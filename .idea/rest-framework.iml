@@ -95,6 +95,7 @@
       <excludeFolder url="file://$MODULE_DIR$/mysite/jstools/node_modules/y18n" />
       <excludeFolder url="file://$MODULE_DIR$/mysite/jstools/node_modules/yargs" />
       <excludeFolder url="file://$MODULE_DIR$/mysite/jstools/node_modules/yargs-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/mysite/jstools/node_modules" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
