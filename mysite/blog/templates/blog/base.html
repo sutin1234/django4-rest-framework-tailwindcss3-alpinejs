@@ -3,12 +3,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Django V4</title>
+    <title>{% block title %} Django V4 {% endblock %}</title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous"/>
 </head>
-<body>
-
+<body class="mx-4 my-4">
+  <h1>Header</h1>
+  <div class="content">{% block content %}{% endblock %}</div>
+  <h1> Footer</h1>
 </body>
 </html>
 <script src="//unpkg.com/alpinejs" defer></script>
