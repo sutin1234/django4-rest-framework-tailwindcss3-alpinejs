@@ -3,13 +3,10 @@ module.exports = {
         removeDeprecatedGapUtilities: true,
         purgeLayersByDefault: true,
    },
-    purge: {
-       enabled: false, //true for production build
-       content: [
-         '../**/templates/*.html',
-        '../**/templates/**/*.html'
-       ]
-   },
+   content: [
+      '../**/templates/*.html',
+      '../**/templates/**/*.html'
+   ],
   theme: {
     extend: {
         fontFamily: {
